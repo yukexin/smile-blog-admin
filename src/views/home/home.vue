@@ -34,13 +34,19 @@ import { Sidebar, NavBar, AppMain, ReuseTab, Breadcrumb } from '@/components/lay
 
 export default {
   components: {
+    // 侧边栏
     Sidebar,
+    // 导航栏
     NavBar,
+    // 内容区
     AppMain,
+
     ReuseTab,
+    // 面包屑导航
     Breadcrumb
   },
 
+  // 注入vue实例
   inject: ['eventBus'],
 
   data() {
@@ -125,7 +131,7 @@ export default {
       align-items: center;
       flex-wrap: nowrap;
       // font-size: $font-size-large;
-    
+
       .sidebar-control {
         display: flex;
         justify-content: center;
