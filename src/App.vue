@@ -10,6 +10,7 @@ import Vue from 'vue'
 export default {
   data() {
     return {
+      // 事件中心
       eventBus: new Vue
     }
   },
